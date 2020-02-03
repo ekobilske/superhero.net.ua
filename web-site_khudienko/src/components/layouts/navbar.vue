@@ -1,26 +1,36 @@
 <template>
-    <section class="header">
-        <section class="header__wrap-section content-position">
-            <div class="header__wrap-section__logo">
-                <a href="superhero.net.ua"> 
-                    <img src="src/assets/images/logo.png" alt="logo superhero">
-                </a>
-            </div>
-            <ul class="header__wrap-section__navbar">
-                <li>про нас</li>
-                <li>ціни</li>
-                <li>акції</li>
-                <li>галерея</li>
-                <li>контакти</li>
-            </ul>
+    <header>
+        <section  class="header-sup">
+            <section class="header__wrap-section content-position">
+                <div class="header__wrap-section__logo">
+                    <a href="superhero.net.ua"> 
+                        <img src="src/assets/images/logo.png" alt="logo superhero" class="first-logo">
+                    </a>
+                </div>
+                <ul class="header__wrap-section__navbar">
+                    <li>про нас</li>
+                    <li>ціни</li>
+                    <li>акції</li>
+                    <li>галерея</li>
+                    <li>контакти</li>
+                </ul>
+            </section>
         </section>
-    </section>
+        <section class="header-sub-bg">
+            <section class="header-sub content-position">
+                <img src="src/assets/images/big-logo.png" alt="second logo superhero" class="second-logo">
+                <article class="title-text-wrap">
+                    <img src="src/assets/images/text-title.png" alt="text title" class="text-title">
+                </article>
+            </section>
+        </section>
+    </header>
 </template>
 <script>
     export default {
         name: 'navbar'
     }
 </script>
-<style lang="scss" scoped>
+<style scoped lang="scss">
     @import "src/scss/navbar.scss"
 </style>

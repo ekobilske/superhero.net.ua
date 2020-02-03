@@ -2,20 +2,22 @@
   <div id="app">
     <!--header-->
     <navbar/>
-    <!--slider title-->
     <!--anoncment-->
+    <announcement/>
     <!--description-->
   </div>
 </template>
 
 <script>
 import navbar from "./components/layouts/navbar.vue";
+import announcement from "./components/modules/announcement.vue";
 /* import footer from "./components/layouts/footer.vue"; */
 
 export default {
   name: 'app',
   components: {
-    navbar
+    navbar,
+    announcement
     /* footer */
   },
   /* data () {
@@ -35,9 +37,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style  scoped lang="scss">
   @import "src/scss/app.scss";
-  *{
-    margin: 0;
-  }
 </style>
