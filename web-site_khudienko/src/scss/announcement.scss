@@ -1,5 +1,20 @@
 @import "src/scss/base.scss";
 
 .wrap-info{
-    
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    /* background-image: url(../src/assets/images/background-info.png);
+    background-size: cover; */
+    .info-content{
+        .title-info{
+            font-family: Intro;
+            font-size: 40px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            color: #ffffff;
+        }
+    }
 }
