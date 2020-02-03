@@ -1,10 +1,17 @@
+//general styles
 *{
-  margin: 0;
-  padding: 0;
   font-family: 'Josefin Sans', sans-serif;
   user-select: none;
-  box-sizing: border-box;
+}
+//position content on window
+.content-position{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
 @import "variables";
 @import "mixins";
-/* @import "media-style"; */
