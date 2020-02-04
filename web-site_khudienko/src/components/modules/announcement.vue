@@ -20,7 +20,7 @@
                 </div>
                 <div class="info-column">
                     <img class="info-icon" src="src/assets/images/icon/location.svg">
-                    <div class="info-descript">
+                    <div class="info-descript loc">
                         <p class="location-city">Вінниця</p>
                         <img class="location-logo" src="src/assets/images/location-logo.png">
                         <p class="location-street">вулиця Келецька, 117-Б</p>

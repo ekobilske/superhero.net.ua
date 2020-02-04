@@ -4,6 +4,7 @@
     <navbar/>
     <!--anoncment-->
     <announcement/>
+    <content-block/>
     <!--description-->
   </div>
 </template>
@@ -11,20 +12,22 @@
 <script>
 import navbar from "./components/layouts/navbar.vue";
 import announcement from "./components/modules/announcement.vue";
+import contentBlock from "./components/modules/content-block.vue";
 /* import footer from "./components/layouts/footer.vue"; */
 
 export default {
   name: 'app',
   components: {
     navbar,
-    announcement
+    announcement,
+    contentBlock
     /* footer */
   },
   /* data () {
     return {
       num: 3,
       data: [],
-      isPending: false
+      isPending: falsenpm
     }
   },
   methods: {
