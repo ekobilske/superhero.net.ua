@@ -4,17 +4,72 @@
     padding: 30px;
     width: 100%;
     height: 100%;
-    /* background: yellow; */
     background: url(/src/assets/images/background-info.png);
     background-size: cover;
+    background-position: center bottom;
     .info-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .title-info{
             font-family: Intro;
             font-size: 40px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
             color: #ffffff;
+
+            margin-bottom: 35px;
+        }
+        .info-wrap{
+            display: flex;
+            /* justify-content: space-around; */
+            .info-column{
+                width: 100%;
+                margin: 0 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .info-icon{
+                    height: 50px;
+                    margin-bottom: 40px;
+                }
+                .info-descript{
+                    .info-date{
+                        margin: 3px 0;
+
+                        font-size: 60px;
+                        color: #ffffff;
+                        text-transform: none;
+                    }
+                    .info-underline{
+                        border: 2px solid white;
+                    }
+                    .info-time{
+                        font-size: 50px;
+                        color: #ffffff;
+                        text-transform: none;
+
+                        text-align: center;
+                    }
+                    .time-num{
+                        font-size: 55px;
+                    }
+                    .location-city{
+                        font-size: 30px;
+                        color: #ffffff;
+                        margin-bottom: 15px;
+                    }
+                    .location-logo{
+                        margin-bottom: 15px;
+                    }
+                    .location-street{
+                        font-size: 15px;
+                        color: #ffffff;
+
+                    }
+                    .loc{
+                        text-align: center;
+                    }
+                }
+            }
         }
     }
 }

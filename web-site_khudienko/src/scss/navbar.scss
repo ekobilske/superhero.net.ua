@@ -49,7 +49,7 @@ header{
         height: 100vh;
         /* background: red; */
         background-image: url(/src/assets/images/background-title.jpg);
-        /* background-size: cover; */
+        background-position: center top;
         height: 850px;
         .header-sub{
             display: flex;
@@ -65,9 +65,7 @@ header{
                 align-items: center;
                 position: relative;
                 .text-title{
-                    position: absolute;
-                    bottom: -130px;
-                    width: 800px;
+                    width: 750px;
                     min-width: 100px;
                 }
             }
