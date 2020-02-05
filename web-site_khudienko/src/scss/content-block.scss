@@ -23,22 +23,31 @@
             height: 100%;
         }
         .separate-wrap{
+            display: flex;
+            align-items: center;
             .wrap-line{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .sup-line{
-
+                    border: 5px solid #dee2e5;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    width: 500px;
+                    box-shadow: 1px 1px 7px black ;
                 }
                 .sub-line{
-
+                    border: 2px solid #dee2e5;
+                    width: 500px;
+                    box-shadow: 1px 1px 7px black ;
                 }
-            }
-            .separate-icon{
-                
             }
         }
         .content-text-wrap{
             display: flex;
             flex-direction: column;
-            align-items: left;
+            align-items: center;
             padding: 20px;
             .content-text{
                 font-family: gilroySB;
@@ -48,7 +57,6 @@
             }
             .content-ps1{
                 margin-top: 20px;
-                padding-left: 200px;
                 font-size: 35px;
                 font-family: gilroyEB;
                 color: #dee2e5;
@@ -57,7 +65,40 @@
                 font-size: 35px;
                 font-family: gilroyEB;
                 color: #dee2e5;
-                padding-left: 600px;
+            }
+        }
+        .wrap-block{
+            .block-marg-top{
+                margin-top: 100px;
+            }
+            .wrap-block-left{
+                width: 937px;
+                background: url(/src/assets/images/background-block.png);
+                background-size: cover;
+                background-position: center bottom;
+                border-radius: 25px;
+                box-shadow: 1px 1px 5px black;
+                padding: 25px;
+                padding-right: 140px;
+
+                position: relative;
+                .block-img{
+                    width: 250px;
+                    position: absolute;
+                    right: -100px;
+                    top: -100px;
+                }
+
+            }
+            .wrap-block-right{
+                width: 937px;
+                background: url(/src/assets/images/background-block.png);
+                background-size: cover;
+                background-position: center top;
+                border-radius: 25px;
+                box-shadow: 1px 1px 5px black;
+                padding: 25px;
+
             }
         }
 

@@ -29,15 +29,29 @@
             <!--/description text-->
             <div class="separate-wrap">
                 <div class="wrap-line">
-                    <div class="sup-line"></div>
                     <div class="sub-line"></div>
+                    <div class="sup-line"></div>
                 </div>
                 <img class="separate-icon" src="src/assets/images/hero-icon.png">
                 <div class="wrap-line">
-                    <div class="sup-line"></div>
                     <div class="sub-line"></div>
+                    <div class="sup-line"></div>
                 </div>
             </div>
+            <section class="wrap-block">
+                <!---->
+                <section class="wrap-block-left block-marg-top">
+                <img class="block-img" src="src/assets/images/ironman-block.png">
+                    <h3>MARVEL</h3>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
+                </section>
+                <!---->
+                <!---->
+                <section class="wrap-block-right block-marg-top">
+                    <p>lorem</p>                
+                </section>
+                <!---->
+            </section>
         </section>
     </section>
 </template>
