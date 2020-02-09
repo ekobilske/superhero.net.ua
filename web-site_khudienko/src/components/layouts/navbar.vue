@@ -14,14 +14,14 @@
                     <li>галерея</li>
                     <li>контакти</li>
                 </ul>
+                <section class="mobile-menu">
+                </section>
             </section>
         </section>
         <section class="header-sub-bg">
             <section class="header-sub content-position">
                 <img src="src/assets/images/big-logo.png" alt="second logo superhero" class="second-logo">
-                <article class="title-text-wrap">
-                    <img src="src/assets/images/text-title.png" alt="text title" class="text-title">
-                </article>
+                <img src="src/assets/images/text-title.png" alt="text title" class="text-title">
             </section>
         </section>
     </header>

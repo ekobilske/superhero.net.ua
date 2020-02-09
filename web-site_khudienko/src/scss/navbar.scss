@@ -3,9 +3,7 @@
 header{
     .header-sup{
         background-color: $main-color;
-        height: 100%;
         width: 100%;
-        padding: 15px;
         -webkit-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
         -moz-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
         box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
@@ -13,29 +11,33 @@ header{
         .header__wrap-section{
             display: flex;
             justify-content: space-between;
+            padding-top: 15px;
+            padding-bottom: 15px;
             .header__wrap-section__logo{
-                display: flex;
-                align-items: center;
+                text-align: center;
+                margin-left: 15px;
             }
             .header__wrap-section__navbar{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 list-style: none;
+                margin-right: 15px;
 
                 li{
-                    margin-right: 45px; 
+                    margin-right: 30px; 
                     padding-top: 5px;
                     padding-bottom: 5px;
                     box-sizing: padding-box;
                     text-transform: uppercase;
                     font-family: Intro;
-                    font-size: 15px;
+                    font-size: 16px;
                     font-weight: 300;
                     letter-spacing: 1px;
                     color: #ffffff;
                     transition-delay: .5s;
                     transition: .2s;
+                    cursor: pointer;
                 }
                 li:last-child{
                     margin-right: 0;
@@ -49,29 +51,60 @@ header{
     }
     .header-sub-bg{
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
         background-image: url(/src/assets/images/background-title.jpg);
-        background-position: center top;
-        height: 850px;
+        background-size: auto;
+        background-position: center;
+        /* height: 850px; */
         .header-sub{
             display: flex;
             flex-direction: column;
             align-items: center;
 
             .second-logo{
-                width: 750px;
+                width: 65%;
             }
-            .title-text-wrap{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                position: relative;
-                .text-title{
-                    width: 750px;
-                    min-width: 100px;
-                }
+            .text-title{
+                width: 70%;
             }
         }
     }
 
+}
+@media only screen and (min-width: 1024px){
+
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 900px) {
+    header{
+        .header-sup{
+            .header__wrap-section{
+                .header__wrap-section__logo{
+                    margin: 15px auto;
+
+                }
+                .header__wrap-section__navbar{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+   header{
+        .header-sup{
+            .header__wrap-section{
+                display: none;
+                .header__wrap-section__logo{
+                    margin: 15px auto;
+
+                }
+                .header__wrap-section__navbar{
+                    display: none;
+                }
+            }
+        }
+    }
 }

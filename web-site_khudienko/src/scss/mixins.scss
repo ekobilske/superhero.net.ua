@@ -1,23 +1,23 @@
 //content block in main
 @mixin wrap-block{
-    width: 937px;
-    min-width: 400px;
     background: url(/src/assets/images/background-block.png);
-    background-size: cover;
+    background-size: auto;
     background-position: center bottom;
     border-radius: 25px;
     box-shadow: 1px 1px 5px black;
     padding: 25px;
-    position: relative;
+
+    margin-bottom: 40px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
 //style content text in main
 @mixin content-text-style{
+    width: 100%;
     text-indent: 25px;
     line-height: 25px;
     color: #fff;
@@ -25,6 +25,7 @@
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: none;
+    margin-bottom: 20px;
 }
 
 //style all button
@@ -32,6 +33,8 @@
     border-radius: 20px;
     border: none;
     background-color: #fff;
+
+    width: 250px;
 
     padding: 10px 20px;
     margin-top: 15px; 
@@ -50,11 +53,10 @@
 
 }
 @mixin btn-style-hover{
-    box-shadow: 0 0 10px  #242424;
     padding: 10px 40px;
     border-radius: 60px;
 
-    background-color: red;
+    background-color: #35355b;
     color: #fff;
 }
 
@@ -63,5 +65,5 @@
     width: 25px;
 }
 @mixin icon-style-hover{
-    
+
 }

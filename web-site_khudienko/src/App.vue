@@ -1,12 +1,9 @@
 <template>
   <div id="app">
-    <!--header-->
     <navbar/>
-    <!--anoncment-->
     <announcement/>
     <content-block/>
     <foot/>
-    <!--description-->
   </div>
 </template>
 

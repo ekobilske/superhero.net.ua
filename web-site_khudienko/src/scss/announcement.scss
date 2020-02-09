@@ -1,7 +1,8 @@
 @import "src/scss/base.scss";
 
 .wrap-info{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
     height: 100%;
     background: url(/src/assets/images/background-info.png);
@@ -16,20 +17,18 @@
             font-family: Intro;
             font-size: 40px;
             color: #ffffff;
-
             margin-bottom: 35px;
         }
         .info-wrap{
             display: flex;
-            width: 100%;
-           /*  flex-wrap: wrap; */
-            /* justify-content: space-around; */
+            justify-content: space-around;
+            flex-wrap: wrap;
             .info-column{
-                width: 100%;
                 margin: 0 50px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                margin-bottom: 30px;
                 .info-icon{
                     width: 100px;
                 }
@@ -62,7 +61,7 @@
                     }
                     .location-logo{
                         margin-bottom: 15px;
-                        width: 200px;
+                        width: 100%;
                     }
                     .location-street{
                         font-size: 15px;
@@ -76,4 +75,25 @@
             }
         }
     }
+}
+@media only screen and (min-width: 1024px){
+
+}
+@media only screen and (max-width: 1024px) {
+    .info-wrap{
+        display: flex;
+        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        .info-column{
+            margin-bottom: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+
+
+}
+@media only screen and (max-width: 450px) {
+    
 }
