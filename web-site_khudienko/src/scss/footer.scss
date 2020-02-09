@@ -5,6 +5,7 @@
     background-color: $main-color;
     .foot-content{
         padding: 50px;
+        padding-bottom: 15px;
         .reserved{
             color: #fff;
             font-family: gilroySB;
@@ -14,7 +15,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-bottom: 35px;
+            margin-bottom: 55px;
             .col-social{
                 display: flex;
                 flex-direction: column;
@@ -22,7 +23,7 @@
                 .social-title{
                     color: #fff;
                     font-family: gilroyEB;
-                    font-size: 20px;
+                    font-size: 30px;
                     letter-spacing: 2px;
                     margin-bottom: 15px;
                 }

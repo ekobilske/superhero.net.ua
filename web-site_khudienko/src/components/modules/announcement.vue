@@ -4,25 +4,22 @@
             <h1 class="title-info">АнонС</h1>
             <section class="info-wrap">
                 <div class="info-column">
-                    <img class="info-icon" src="src/assets/images/icon/date.svg">
-                    <div class="info-descript">
-                        <p class="info-date">14.02</p>
-                        <div class="info-underline"></div>
-                        <p class="info-date">15.03</p>
-                    </div>
-                </div>
-                <div class="info-column">
-                    <img class="info-icon" src="src/assets/images/icon/time.svg">
-                    <div class="info-descript">
-                        <p class="info-time">працюємо:</p>
-                        <p class="info-time time-num">10<sup>00</sup> - 20<sup>00</sup></p>
-                    </div>
+                    <section class="dateTime">
+                        <div class="wrap-date">
+                            <img class="info-icon" src="src/assets/images/icon/date.svg">
+                            <h5 class="date-text">з 14.02 по 15.02</h5>
+                        </div>
+                        <div class="wrap-time">
+                            <img class="info-icon" src="src/assets/images/icon/time.svg">
+                            <h5 class="time-text">Час роботи: 10<sup>00</sup>-20<sup>00</sup></h5>
+                        </div>
+                    </section>
                 </div>
                 <div class="info-column">
                     <img class="info-icon" src="src/assets/images/icon/location.svg">
                     <div class="info-descript loc">
-                        <p class="location-city">Вінниця</p>
                         <img class="location-logo" src="src/assets/images/location-logo.png">
+                        <p class="location-city">Вінниця</p>
                         <p class="location-street">вулиця Келецька, 117-Б</p>
                     </div>
                 </div>
