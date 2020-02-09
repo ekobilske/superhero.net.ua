@@ -54,34 +54,39 @@
                 color: #dee2e5;
                 font-size: 27px;
                 text-indent: 50px;
+                text-shadow: 0px 0px 10px black;
             }
             .content-ps1{
                 margin-top: 20px;
                 font-size: 35px;
                 font-family: gilroyEB;
                 color: #dee2e5;
+                text-shadow: 0px 0px 10px black;
             }
             .content-ps2{
                 font-size: 35px;
                 font-family: gilroyEB;
                 color: #dee2e5;
+                text-shadow: 0px 0px 10px black;
             }
         }
         .wrap-block{
             .block-marg-top{
                 margin-top: 100px;
             }
+            .block-title{
+                color: #fff;
+                font-size: 35px;
+                margin-bottom: 20px;
+                letter-spacing: 1px;
+            }
+            .block-descript{
+                @include content-text-style;
+            }
             .wrap-block-left{
-                width: 937px;
-                background: url(/src/assets/images/background-block.png);
-                background-size: cover;
-                background-position: center bottom;
-                border-radius: 25px;
-                box-shadow: 1px 1px 5px black;
-                padding: 25px;
+                @include wrap-block;
                 padding-right: 140px;
 
-                position: relative;
                 .block-img{
                     width: 250px;
                     position: absolute;
@@ -91,14 +96,15 @@
 
             }
             .wrap-block-right{
-                width: 937px;
-                background: url(/src/assets/images/background-block.png);
-                background-size: cover;
-                background-position: center top;
-                border-radius: 25px;
-                box-shadow: 1px 1px 5px black;
-                padding: 25px;
+                @include wrap-block;
+                padding-left: 140px;
 
+                .block-img{
+                    width: 350px;
+                    position: absolute;
+                    left: -100px;
+                    top: -80px;
+                }
             }
         }
 

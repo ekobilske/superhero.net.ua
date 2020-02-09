@@ -39,16 +39,46 @@
                 </div>
             </div>
             <section class="wrap-block">
-                <!---->
+                <!--Marvel-->
                 <section class="wrap-block-left block-marg-top">
-                <img class="block-img" src="src/assets/images/ironman-block.png">
-                    <h3>MARVEL</h3>
-                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
+                    <img class="block-img" src="src/assets/images/ironman-block.png">
+                    <h3 class="block-title">"MARVEL COMICS"</h3>
+                    <p class="block-descript">Що включає в себе Marvel?
+                    І що взагалі мається на увазі під всесвіту?
+                    Мультіверс є світом, де герої різних коміксів зустрічаються в одній історії.
+                    Відмінна особливість Всесвіту Marvel полягає в тому, що більшість подій відбуваються на Землі.
+                    На сьогоднішній день кількість персонажів: героїв, лиходіїв, Богів, прибульців, спецагентів і цивільних - перевалило за п'ятдесят тисяч.
+                    За чисельністю жителів Всесвіт Марвел можна порівняти з невеликим містом України.</p>
                 </section>
                 <!---->
-                <!---->
+                <!--DC Comics-->
                 <section class="wrap-block-right block-marg-top">
-                    <p>lorem</p>                
+                    <img class="block-img" src="src/assets/images/superman-block.png">
+                    <h3 class="block-title">"DC COMICS"</h3>
+                    <p class="block-descript">Всесвіт DC настільки величезний, що творці та фанати додають до неї приставку «Мульти-».
+                    Виникнувши в результаті Великого вибуху, вона умістила в собі безліч паралельних світів і реальностей.
+                    Головні події більшості коміксів відбуваються в основному світі під назвою Земля 1.
+                    Поруч з нею вмістилися Земля-2, Земля-3 і т.д.</p>
+                    <p class="block-descript">
+                    Сьогодні Всесвіт DC налічує понад 20 тисяч персонажів.
+                    Серед них можна зустріти богів, ангелів, героїв, лиходіїв, антигероїв і цивільних.
+                    При цьому видавництво докладає величезних зусиль, щоб список жителів з кожним роком збільшувався,
+                    а істоти з різних світів зустрічалися на сторінках одного номер</p>               
+                </section>
+                <!---->
+                <!--Minecraft-->
+                <section class="wrap-block-right block-marg-top">
+                    <img class="block-img" src="src/assets/images/superman-block.png">
+                    <h3 class="block-title">Світ "Minecraft"</h3>
+                    <p class="block-descript">Всесвіт DC настільки величезний, що творці та фанати додають до неї приставку «Мульти-».
+                    Виникнувши в результаті Великого вибуху, вона умістила в собі безліч паралельних світів і реальностей.
+                    Головні події більшості коміксів відбуваються в основному світі під назвою Земля 1.
+                    Поруч з нею вмістилися Земля-2, Земля-3 і т.д.</p>
+                    <p class="block-descript">
+                    Сьогодні Всесвіт DC налічує понад 20 тисяч персонажів.
+                    Серед них можна зустріти богів, ангелів, героїв, лиходіїв, антигероїв і цивільних.
+                    При цьому видавництво докладає величезних зусиль, щоб список жителів з кожним роком збільшувався,
+                    а істоти з різних світів зустрічалися на сторінках одного номер</p>               
                 </section>
                 <!---->
             </section>

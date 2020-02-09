@@ -24,16 +24,15 @@ header{
                 list-style: none;
 
                 li{
-                    margin-right: 40px; 
+                    margin-right: 45px; 
                     padding-top: 5px;
                     padding-bottom: 5px;
                     box-sizing: padding-box;
-
                     text-transform: uppercase;
                     font-family: Intro;
-                    font-size: 17px;
-                    font-weight: normal;
-                    font-style: normal;
+                    font-size: 15px;
+                    font-weight: 300;
+                    letter-spacing: 1px;
                     color: #ffffff;
                     transition-delay: .5s;
                     transition: .2s;

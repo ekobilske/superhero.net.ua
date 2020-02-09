@@ -1,0 +1,27 @@
+//content block in main
+@mixin wrap-block{
+    width: 937px;
+    min-width: 400px;
+    background: url(/src/assets/images/background-block.png);
+    background-size: cover;
+    background-position: center bottom;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+    padding: 25px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+//style content text in main
+@mixin content-text-style{
+    text-indent: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-family: gilroySB;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: none;
+}
