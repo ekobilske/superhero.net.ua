@@ -2,8 +2,10 @@
 *{
   font-family: Intro;
   user-select: none;
+  outline: none;
   /* cursor: pointer; */
 }
+path{ fill:inherit; stroke:inherit; }
 //position content on window
 .content-position{
   width: 100%;

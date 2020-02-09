@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 //style content text in main
 @mixin content-text-style{
     text-indent: 25px;
@@ -24,4 +25,43 @@
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: none;
+}
+
+//style all button
+@mixin btn-style{
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+
+    padding: 10px 20px;
+    margin-top: 15px; 
+    
+
+    color: #38395f;
+    font-family: gilroyEB;
+    font-size: 20px;
+
+    transition: .4s;
+    transition-delay: .1s;
+
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(20,20,20,1);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(20,20,20,1);
+    box-shadow: 0px 0px 24px -13px rgba(20,20,20,1);
+
+}
+@mixin btn-style-hover{
+    box-shadow: 0 0 10px  #242424;
+    padding: 10px 40px;
+    border-radius: 60px;
+
+    background-color: red;
+    color: #fff;
+}
+
+//style all icon
+@mixin icon-style{
+    width: 25px;
+}
+@mixin icon-style-hover{
+    
 }

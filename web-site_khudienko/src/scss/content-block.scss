@@ -1,7 +1,8 @@
 @import "src/scss/base.scss";
 
 .content-block{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
     width: 100%;
     height: 100%;
     background: url(/src/assets/images/background-content.png);
@@ -72,7 +73,7 @@
         }
         .wrap-block{
             .block-marg-top{
-                margin-top: 100px;
+                margin-top: 150px;
             }
             .block-title{
                 color: #fff;
@@ -83,6 +84,13 @@
             .block-descript{
                 @include content-text-style;
             }
+            .btn{
+                @include btn-style;
+            }
+            .btn:hover{
+                @include btn-style-hover;
+            }
+            //right block
             .wrap-block-left{
                 @include wrap-block;
                 padding-right: 140px;
@@ -95,9 +103,11 @@
                 }
 
             }
+            //left block
             .wrap-block-right{
                 @include wrap-block;
                 padding-left: 140px;
+
 
                 .block-img{
                     width: 350px;
