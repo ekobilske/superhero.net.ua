@@ -1,8 +1,7 @@
 //content block in main
+@import "variables.scss";
+
 @mixin wrap-block{
-    background: url(/src/assets/images/background-block.png);
-    background-size: auto;
-    background-position: center bottom;
     border-radius: 25px;
     box-shadow: 1px 1px 5px black;
     padding: 25px;
@@ -13,6 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 //style content text in main
@@ -21,7 +21,7 @@
     text-indent: 25px;
     line-height: 25px;
     color: #fff;
-    font-family: gilroySB;
+    font-weight: 400;
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: none;
@@ -37,8 +37,7 @@
     width: 250px;
 
     padding: 10px 20px;
-    margin-top: 15px; 
-    
+    margin-top: 15px;
 
     color: #38395f;
     font-family: gilroyEB;
