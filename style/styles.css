@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   font-family: "PT Sans Caption", sans-serif;
+  text-decoration: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -396,6 +397,8 @@ body .content-block .content-wrap .wrap .wrap-block {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body .content-block .content-wrap .wrap .wrap-block .block-title {
@@ -427,7 +430,6 @@ body .content-block .content-wrap .wrap .wrap-block .wrap-content .block-descrip
   text-indent: 25px;
   line-height: 25px;
   color: #fff;
-  font-family: 100% "PT Sans Caption", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 20px;
@@ -445,6 +447,8 @@ body .content-block .content-wrap .wrap .wrap-block .wrap-content .btn {
   color: #38395f;
   font-family: gilroyEB;
   font-size: 20px;
+  text-decoration: none;
+  text-align: center;
   -webkit-transition: .4s;
   transition: .4s;
   -webkit-transition-delay: .1s;
