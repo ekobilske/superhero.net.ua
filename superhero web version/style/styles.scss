@@ -1,0 +1,136 @@
+@import "font.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+//general styles
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Intro;
+    user-select: none;
+    outline: none;
+}
+path{ fill:inherit; stroke:inherit; }
+.content-position{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+body{
+    header{
+        .header-sup{
+            background-color: $main-color;
+            width: 100%;
+            -webkit-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
+            -moz-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
+            box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.72);
+            .header__wrap-section{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .header__wrap-section__logo{
+                    text-align: center;
+                    margin-left: 15px;
+                }
+                .header__wrap-section__navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+                    margin-right: 15px;
+                    li{
+                        margin-right: 30px;
+                        cursor: pointer;
+                        a{
+                            text-decoration: none;
+                            box-sizing: padding-box;
+                            text-transform: uppercase;
+                            font-family: Intro;
+                            font-size: 16px;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            color: #ffffff;
+                            transition-delay: .5s;
+                            transition: .2s;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+
+                        }
+                        a:hover{
+                            border-top: 3px solid #ffffff;
+                            border-bottom: 3px solid #ffffff;
+                        }
+                    }
+                    li:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .header-sub-bg{
+            width: 100%;
+            /* height: 100vh; */
+            background-image: url(../assets/images/background-title.jpg);
+            background-size: auto;
+            background-position: center;
+            /* height: 850px; */
+            .header-sub{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .second-logo{
+                    width: 65%;
+                }
+                .text-title{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    //media style header
+    //////////////////////////////////////
+    //////////////////////////////////////
+    //////////////////////////////////////
+    @media only screen and (min-width: 1024px){
+    
+    }
+    @media only screen and (max-width: 1024px) {
+    
+    }
+    @media only screen and (max-width: 900px) {
+        header{
+            .header-sup{
+                .header__wrap-section{
+                    .header__wrap-section__logo{
+                        margin: 15px auto;
+    
+                    }
+                    .header__wrap-section__navbar{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 450px) {
+       header{
+            .header-sup{
+                .header__wrap-section{
+                    display: none;
+                    .header__wrap-section__logo{
+                        margin: 15px auto;
+    
+                    }
+                    .header__wrap-section__navbar{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    //////////////////////////////////////
+    //////////////////////////////////////
+    //////////////////////////////////////
+}

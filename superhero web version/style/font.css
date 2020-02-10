@@ -1,0 +1,15 @@
+@font-face {
+  font-family: intro;
+  src: url(/src/assets/fonts/Intro/Intro.otf);
+}
+
+@font-face {
+  font-family: gilroyEB;
+  src: url(/src/assets/fonts/Gilroy/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: gilroySB;
+  src: url(/src/assets/fonts/Gilroy/Gilroy-SemiBold.ttf);
+}
+/*# sourceMappingURL=font.css.map */
