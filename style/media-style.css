@@ -1,0 +1,151 @@
+/* @media only screen and (max-width: 1024px) {
+        .info-wrap{
+            display: flex;
+            flex-direction: column;
+            flex-direction: row;
+            align-items: center;
+            .info-column{
+                margin-bottom: 50px;
+            }
+        }
+    } */
+@media only screen and (max-width: 900px) {
+  body header .header-sup .header__wrap-section {
+    display: block;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__logo {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar li {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  body .content-block .content-wrap .wrap .wrap-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body .content-block .content-wrap .wrap .wrap-block .wrap-content {
+    text-align: center;
+  }
+  body .content-block .content-wrap .wrap .wrap-block .wrap-content-img {
+    height: 200px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .content-block .content-wrap .wrap .wrap-block:nth-child(2n) {
+    background-position: center top;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body .wrap-foot .foot-content .wrap-contact {
+    display: block;
+    margin-bottom: 30px;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-social {
+    margin-bottom: 30px;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact .wrap-ph_num .phone-number {
+    font-size: 30px;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-email-contact {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body .wrap-info .info-content .title-info {
+    font-size: 30px;
+  }
+  body .wrap-info .info-content .info-wrap {
+    display: block;
+  }
+  body .wrap-info .info-content .info-wrap .info-column {
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ffffff;
+  }
+  body .wrap-info .info-content .info-wrap .info-column .info-icon {
+    width: 60px;
+  }
+  body .wrap-info .info-content .info-wrap .info-column .dateTime .wrap-date .date-text {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  body .content-block .content-wrap .title-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) and (max-width: 450px) {
+  body .content-block .content-wrap .separate-wrap .wrap-line {
+    display: none;
+  }
+  body .content-block .content-wrap .content-text-wrap {
+    text-align: center;
+  }
+  body .content-block .content-wrap .content-text-wrap .content-text {
+    text-align: center;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-social .social-title {
+    text-align: center;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact .wrap-ph_num .phone-number {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (max-width: 370px) {
+  body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact .wrap-ph_num .phone-number {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (max-width: 320px) {
+  body .wrap-info .info-content .title-info {
+    font-size: 20px;
+  }
+  body .wrap-info .info-content .info-wrap {
+    display: block;
+  }
+  body .wrap-info .info-content .info-wrap .info-column .info-icon {
+    width: 50px;
+  }
+  body .wrap-info .info-content .info-wrap .info-column .dateTime .wrap-date .date-text {
+    font-size: 20px;
+  }
+  body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact .wrap-ph_num .phone-number {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=media-style.css.map */

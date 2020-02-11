@@ -1,10 +1,11 @@
 //content block in main
 @import "variables.scss";
+@import "font.scss";
 
 @mixin wrap-block{
     border-radius: 25px;
     box-shadow: 1px 1px 5px black;
-    padding: 25px;
+    padding: 20px;
 
     margin-bottom: 40px;
 
@@ -19,12 +20,13 @@
     text-indent: 25px;
     line-height: 25px;
     color: #fff;
-    font-family: $content-font;
-    font-weight: 400;
+    font-family: $font-montsserat;
+    font-weight: 600;
     letter-spacing: 1px;
     font-size: 20px;
     text-transform: none;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 //style all button
@@ -33,13 +35,14 @@
     border: none;
     background-color: #fff;
 
-    width: 250px;
+    width: 260px;
 
     padding: 10px 20px;
     margin-top: 15px;
 
     color: #38395f;
-    font-family: gilroyEB;
+    font-family: $font-montsserat;
+    font-weight: 800;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
@@ -62,7 +65,7 @@
 
 //style all icon
 @mixin icon-style{
-    width: 25px;
+    width: 17px;
 }
 @mixin icon-style-hover{
 

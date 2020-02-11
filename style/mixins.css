@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=mixins.css.map */
+@font-face {
+  font-family: intro;
+  src: url(../assets/fonts/Intro/Intro.otf);
+}
+
+@font-face {
+  font-family: gilroyEB;
+  src: url(../assets/fonts/Gilroy/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: gilroySB;
+  src: url(../assets/fonts/Gilroy/Gilroy-SemiBold.ttf);
+}
+/*# sourceMappingURL=mixins.css.map */
