@@ -29,11 +29,7 @@ a:active {
   outline: none;
 }
 
-path {
-  fill: inherit;
-  stroke: inherit;
-}
-
+/* path{ fill:inherit; stroke:inherit; } */
 .content-position {
   width: 100%;
   max-width: 1200px;
@@ -616,43 +612,53 @@ body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-email-contact .em
   letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .info-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+/* @media only screen and (min-width: 1024px){
+
+    }
+    @media only screen and (max-width: 1024px) {
+        .info-wrap{
+            display: flex;
             flex-direction: column;
-    flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
+            flex-direction: row;
             align-items: center;
-  }
-  .info-wrap .info-column {
-    margin-bottom: 50px;
-  }
-}
-
+            .info-column{
+                margin-bottom: 50px;
+            }
+        }
+ */
+/* } */
 @media only screen and (max-width: 900px) {
-  header .header-sup .header__wrap-section .header__wrap-section__logo {
-    margin: 15px auto;
+  body header .header-sup .header__wrap-section {
+    display: block;
   }
-  header .header-sup .header__wrap-section .header__wrap-section__navbar {
-    display: none;
+  body header .header-sup .header__wrap-section .header__wrap-section__logo {
+    margin: 0;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar li {
+    margin: 0;
+    margin-bottom: 10px;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  header .header-sup .header__wrap-section {
-    display: none;
-  }
-  header .header-sup .header__wrap-section .header__wrap-section__logo {
-    margin: 15px auto;
-  }
-  header .header-sup .header__wrap-section .header__wrap-section__navbar {
-    display: none;
-  }
-}
+/* @media only screen and (max-width: 450px) {
+        header{
+            .header-sup{
+                .header__wrap-section{
+                    display: none;
+                    .header__wrap-section__logo{
+                        margin: 15px auto;
+                    }
+                    .header__wrap-section__navbar{
+                        display: none;
+                    }
+                }
+            }
+        }
+    } */
 /*# sourceMappingURL=styles.css.map */
