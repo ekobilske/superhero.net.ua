@@ -652,7 +652,7 @@ body .content-block .content-wrap .wrap .wrap-block .wrap-content .btn {
   color: #38395f;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   text-align: center;
   -webkit-transition: .4s;
@@ -743,7 +743,7 @@ body .wrap-foot .foot-content .wrap-contact .col-social .wrap-icon-link .icon {
 }
 
 body .wrap-foot .foot-content .wrap-contact .col-contact {
-  width: 100%;
+  /* width: 100%; */
 }
 
 body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact {
