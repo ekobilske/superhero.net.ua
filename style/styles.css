@@ -16,7 +16,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans Caption", sans-serif;
+  font-family: "Alegreya SC", serif;
   text-decoration: none;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -379,10 +379,11 @@ body .content-block .content-wrap .content-text-wrap {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
+  font-weight: 600;
 }
 
 body .content-block .content-wrap .content-text-wrap .content-text {
-  font-family: gilroySB;
+  font-family: "Alegreya SC", serif;
   color: #dee2e5;
   font-size: 27px;
   text-indent: 50px;
@@ -392,14 +393,14 @@ body .content-block .content-wrap .content-text-wrap .content-text {
 body .content-block .content-wrap .content-text-wrap .content-ps1 {
   margin-top: 20px;
   font-size: 35px;
-  font-family: gilroyEB;
+  font-family: "Alegreya SC", serif;
   color: #dee2e5;
   text-shadow: 0px 0px 10px black;
 }
 
 body .content-block .content-wrap .content-text-wrap .content-ps2 {
   font-size: 35px;
-  font-family: gilroyEB;
+  font-family: "Alegreya SC", serif;
   color: #dee2e5;
   text-shadow: 0px 0px 10px black;
 }
@@ -422,17 +423,11 @@ body .content-block .content-wrap .wrap .wrap-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 body .content-block .content-wrap .wrap .wrap-block .block-title {
@@ -460,10 +455,11 @@ body .content-block .content-wrap .wrap .wrap-block .wrap-content {
 }
 
 body .content-block .content-wrap .wrap .wrap-block .wrap-content .block-descript {
-  width: 100%;
+  width: 80%;
   text-indent: 25px;
   line-height: 25px;
   color: #fff;
+  font-family: "Alegreya SC", serif;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 20px;

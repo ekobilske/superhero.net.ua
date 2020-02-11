@@ -1,0 +1,133 @@
+[33mcommit ce3d17f9992b033fa4062b4bbae6fd1c3c9b33dc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Tue Feb 11 00:07:09 2020 +0200
+
+    add restyle scroll bar
+
+[33mcommit d09fa71e6d5ad537067f375de4dbc461c026debd[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 23:47:49 2020 +0200
+
+    Pages added:
+    - about us
+    - prices
+    - discounts
+    - gallery
+    - contacts
+    - marvel page
+    - ds page
+    - minecraft page
+
+[33mcommit afaf32826953b03266be3de41ac2543254581857[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 22:27:02 2020 +0200
+
+    add composer
+
+[33mcommit 6677836e5581b4a3e7c937574a27875c9d3cfb99[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 22:24:06 2020 +0200
+
+    add .gitignore
+
+[33mcommit ec961388c91971d0bfa41edfa80432852d773825[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 22:19:03 2020 +0200
+
+    other edit
+
+[33mcommit ef8dcaaeb2373e5e3bf37c50bb810578767be22f[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 20:57:48 2020 +0200
+
+    add navbar and header block
+
+[33mcommit c4acd4f59c5fdd984ed5658691be5ed9ddfb9dd1[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 10 00:28:58 2020 +0200
+
+    rebuild all application, delete vue cli
+
+[33mcommit f3cee4c655c5762c2465e0ca4b73a84cb7bd8f6b[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Sun Feb 9 23:32:43 2020 +0200
+
+    add responsive version, rebuild content block
+
+[33mcommit f981a9679b3cba11e68e339f11998e5ffa5fd17c[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Sun Feb 9 18:45:26 2020 +0200
+
+    rebuild anoncuement block
+
+[33mcommit 2530ad1792a0c23abb061ca977470e85ffe881aa[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Sun Feb 9 18:09:45 2020 +0200
+
+    application version 0.1
+
+[33mcommit 7ebcf9b29406416333c1978da48d5808d5a422e8[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Sun Feb 9 14:26:49 2020 +0200
+
+    add content block, mixins and variables
+
+[33mcommit 6867ee1b48c06e4ccf35aebd78a56bb5293e810a[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Thu Feb 6 00:20:37 2020 +0200
+
+    add first content block
+
+[33mcommit 7c488b9073d8fd2bb1eb6cb6cb9a8a6df351ccfe[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Wed Feb 5 23:40:50 2020 +0200
+
+    add font and connected
+
+[33mcommit 73aa8de38e3646a150c832b53c434ddde330d1c8[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Wed Feb 5 00:48:03 2020 +0200
+
+    other edit
+
+[33mcommit d9bf18afe9564707e9ec12db778f3fe89707f913[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Tue Feb 4 23:59:52 2020 +0200
+
+    create info component
+
+[33mcommit de607fdb69e5c99dae00d30cc58ac02b0a5163b9[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Tue Feb 4 22:55:25 2020 +0200
+
+    fix to background title and info
+
+[33mcommit 8be9ad1226ca793c67227c27101cb83ce33b4dca[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Tue Feb 4 00:27:27 2020 +0200
+
+    i have problem for bg img
+
+[33mcommit 3c99162671444afa334375a4791350bb61b1a771[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Tue Feb 4 00:10:56 2020 +0200
+
+    add cover title
+
+[33mcommit c867ac6fa2edf9450d1153da290ccf80b3afb5e0[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 3 21:46:54 2020 +0200
+
+    create header component
+
+[33mcommit 6f50360f1f400b6f680159b9eef9286d0f1f511a[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 3 15:37:23 2020 +0200
+
+    other edit
+
+[33mcommit 7a0e4a9afb3e95ae93a917acda5d34cc969c0488[m
+Author: Eugene Kobeliaksky <ekobilske@gmail.com>
+Date:   Mon Feb 3 15:26:04 2020 +0200
+
+    create new project

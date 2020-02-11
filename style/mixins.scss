@@ -9,18 +9,17 @@
     margin-bottom: 40px;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 //style content text in main
 @mixin content-text-style{
-    width: 100%;
+    width: 80%;
     text-indent: 25px;
     line-height: 25px;
     color: #fff;
+    font-family: $content-font;
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 20px;
