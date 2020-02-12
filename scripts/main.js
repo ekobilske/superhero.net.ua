@@ -4,5 +4,7 @@ $(document).ready(function(){
     });
     $("#btn-up").click(function(event){
         $("#mobile-bar").css("display", "none");
+        event.stopImmediatePropagation();
+        return false;
     });
 })
