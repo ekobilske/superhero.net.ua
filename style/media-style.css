@@ -167,6 +167,9 @@
   body .wrap-prices .prices-content .prices-cols {
     display: block;
   }
+  body .wrap-prices .prices-content .prices-cols .price-col {
+    border-bottom: 8px solid #ffffff;
+  }
   body .wrap-prices .prices-content .prices-cols .price-col .age-price {
     font-size: 30px;
   }

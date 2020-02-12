@@ -197,6 +197,9 @@
   body .wrap-prices .prices-content .prices-cols {
     display: block;
   }
+  body .wrap-prices .prices-content .prices-cols .price-col {
+    border-bottom: 8px solid #ffffff;
+  }
   body .wrap-prices .prices-content .prices-cols .price-col .age-price {
     font-size: 30px;
   }
@@ -828,6 +831,7 @@ body .wrap-prices .prices-content .prices-cols .price-col {
           align-items: center;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 50px;
 }
 
 body .wrap-prices .prices-content .prices-cols .price-col .age-price {
@@ -1562,6 +1566,9 @@ body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-email-contact .em
 @media only screen and (max-width: 700px) and (max-width: 370px) {
   body .wrap-prices .prices-content .prices-cols {
     display: block;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col {
+    border-bottom: 8px solid #ffffff;
   }
   body .wrap-prices .prices-content .prices-cols .price-col .age-price {
     font-size: 30px;
