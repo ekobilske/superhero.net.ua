@@ -28,17 +28,6 @@
   src: url(../assets/fonts/Gilroy/Gilroy-SemiBold.ttf);
 }
 
-/* @media only screen and (max-width: 1024px) {
-        .info-wrap{
-            display: flex;
-            flex-direction: column;
-            flex-direction: row;
-            align-items: center;
-            .info-column{
-                margin-bottom: 50px;
-            }
-        }
-    } */
 @media only screen and (max-width: 900px) {
   body header .header-sup .header__wrap-section {
     display: block;
@@ -48,8 +37,11 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+  body header .header-sup .header__wrap-section .btn-mobile {
     display: block;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+    display: none;
     text-align: center;
     margin: 0;
     margin-top: 15px;
@@ -263,6 +255,26 @@ body header .header-sup .header__wrap-section .header__wrap-section__logo {
 
 body header .header-sup .header__wrap-section .header__wrap-section__logo .first-logo {
   width: 100%;
+}
+
+body header .header-sup .header__wrap-section .btn-mobile {
+  display: none;
+  width: 25px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body header .header-sup .header__wrap-section .btn-mobile .line {
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  width: 25px;
+  height: 3px;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
 }
 
 body header .header-sup .header__wrap-section .header__wrap-section__navbar {
@@ -837,17 +849,6 @@ body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-email-contact .em
   letter-spacing: 1px;
 }
 
-/* @media only screen and (max-width: 1024px) {
-        .info-wrap{
-            display: flex;
-            flex-direction: column;
-            flex-direction: row;
-            align-items: center;
-            .info-column{
-                margin-bottom: 50px;
-            }
-        }
-    } */
 @media only screen and (max-width: 900px) {
   body header .header-sup .header__wrap-section {
     display: block;
@@ -857,8 +858,11 @@ body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-email-contact .em
     padding-left: 10px;
     padding-right: 10px;
   }
-  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+  body header .header-sup .header__wrap-section .btn-mobile {
     display: block;
+  }
+  body header .header-sup .header__wrap-section .header__wrap-section__navbar {
+    display: none;
     text-align: center;
     margin: 0;
     margin-top: 15px;
