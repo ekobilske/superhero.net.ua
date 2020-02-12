@@ -192,7 +192,7 @@ body{
                     .location-link{
                         animation: location-icon-opacity 1s ease-in-out infinite;
                         -webkit-animation: location-icon-opacity 1s ease-in-out infinite;
-}
+                    }
                     .info-icon{
                         width: 100px;
                     }
@@ -358,6 +358,82 @@ body{
                 .wrap-block:nth-child(2n){
                     background-position: center top;
                     flex-direction: row-reverse;
+                }
+            }
+        }
+    }
+//////////////////////////////////////
+    //prices block
+    .wrap-prices{
+        width: 100%;
+        height: 100%;
+        background: url(../assets/images/background-prices.jpg);
+        background-size: cover;
+        background-position: center;
+        .prices-content{
+            padding: 20px;
+            display: block;
+            flex-direction: row;
+            align-items: center;
+            .prices-cols{
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                .price-col{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    .age-price{
+                        font-family: intro;
+                        text-align: center;
+                        font-size: 40px;
+                        color: #ffffff;
+                        animation: text-color 3s ease-in-out infinite;
+                        -webkit-animation: text-color 3s ease-in-out infinite;
+}
+                    .value{
+                        font-family: intro;
+                        font-size: 250px;
+                        color: yellow;
+                        animation: text-color 3s ease-in-out infinite;
+                        -webkit-animation: text-color 3s ease-in-out infinite;
+}
+                    .curren{
+                        font-family: intro;
+                        font-size: 150px;
+                        color: yellow;
+                        margin-top: -70px;
+                        animation: text-color 3s ease-in-out infinite;
+                        -webkit-animation: text-color 3s ease-in-out infinite;
+}
+                    @keyframes text-color {
+                        0% {
+                            color: yellow;
+                        }
+                        50% {
+                            color: #ffffff;
+                        }
+                        100% {
+                            color: yellow;
+                        }
+                    }
+                }
+            }
+            .prices-descript{
+                margin: 20px auto;
+                display: block;
+                text-align: center;
+                .text-descript{
+                    font-family: intro;
+                    font-size: 40px;
+                    color: yellow;
+                    margin-bottom: 10px;
+                }
+                .text-descript:nth-child(2n){
+                    color: #fff;
+                    font-size: 45px;
                 }
             }
         }
@@ -778,6 +854,7 @@ body{
                         .wrap-ph_num{
                             .phone-number{
                                 font-family: $font-montsserat;
+                                font-size: 25px;
                                 font-weight: 700;
                                 color: #fff;
                                 letter-spacing: 1px;

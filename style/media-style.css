@@ -1,3 +1,16 @@
+@media only screen and (max-width: 1000px) {
+  body .wrap-prices .prices-content .prices-cols .price-col .age-price {
+    font-size: 30px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .value {
+    font-size: 200px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .curren {
+    font-size: 100px;
+    margin-top: 0;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   body header .header-sup .header__wrap-section {
     display: block;
@@ -52,6 +65,16 @@
 }
 
 @media only screen and (max-width: 800px) {
+  body .wrap-prices .prices-content .prices-cols .price-col .age-price {
+    font-size: 15px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .value {
+    font-size: 100px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .curren {
+    font-size: 50px;
+    margin-top: 0;
+  }
   body .wrap-foot .foot-content .wrap-contact {
     display: block;
     margin-bottom: 30px;
@@ -109,6 +132,29 @@
   body .content-block .content-wrap .content-text-wrap .content-text {
     text-align: center;
   }
+  body .wrap-prices .prices-content .prices-cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .age-price {
+    font-size: 30px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .value {
+    font-size: 200px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .curren {
+    font-size: 100px;
+    margin-top: 0;
+  }
+  body .wrap-prices .prices-content .prices-descript .text-descript {
+    font-size: 30px;
+  }
+  body .wrap-prices .prices-content .prices-descript .text-descript:nth-child(2n) {
+    font-size: 30px;
+  }
   body .wrap-foot .foot-content .wrap-contact .col-social .social-title {
     text-align: center;
   }
@@ -118,6 +164,19 @@
 }
 
 @media only screen and (max-width: 700px) and (max-width: 370px) {
+  body .wrap-prices .prices-content .prices-cols {
+    display: block;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .age-price {
+    font-size: 30px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .value {
+    font-size: 200px;
+  }
+  body .wrap-prices .prices-content .prices-cols .price-col .curren {
+    font-size: 100px;
+    margin-top: 0;
+  }
   body .wrap-foot .foot-content .wrap-contact .col-contact .wrap-phone-contact .wrap-ph_num .phone-number {
     font-size: 20px;
   }
