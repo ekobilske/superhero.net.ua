@@ -7,14 +7,9 @@ $(document).ready(function(){
         event.stopImmediatePropagation();
         return false;
     });
-
-
-
-    
 (function ($) {
     "use strict";
 
-    
     /*==================================================================
     [ Validate ]*/
     var name = $('.validate-input input[name="name"]');
